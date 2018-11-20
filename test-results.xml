@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.004" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2018-11-20T20:52:36" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="#sum()" timestamp="2018-11-20T20:52:36" tests="0" file="C:\Users\jnimmo.ELECTRONET\Desktop\CItesting\source\test\sum.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="without arguments" timestamp="2018-11-20T20:52:36" tests="1" file="C:\Users\jnimmo.ELECTRONET\Desktop\CItesting\source\test\sum.js" failures="0" time="0.001">
+    <testcase name="#sum() without arguments should return 0" time="0.001" classname="should return 0">
+    </testcase>
+  </testsuite>
+  <testsuite name="with number arguments" timestamp="2018-11-20T20:52:36" tests="2" file="C:\Users\jnimmo.ELECTRONET\Desktop\CItesting\source\test\sum.js" failures="0" time="0">
+    <testcase name="#sum() with number arguments should return sum of arguments" time="0" classname="should return sum of arguments">
+    </testcase>
+    <testcase name="#sum() with number arguments should return argument when only one argument is passed" time="0" classname="should return argument when only one argument is passed">
+    </testcase>
+  </testsuite>
+  <testsuite name="with non-number arguments" timestamp="2018-11-20T20:52:36" tests="1" file="C:\Users\jnimmo.ELECTRONET\Desktop\CItesting\source\test\sum.js" failures="1" time="0.003">
+    <testcase name="#sum() with non-number arguments should throw error" time="0.003" classname="should throw error">
+      <failure message="expected [Function] to throw TypeError" type="AssertionError"><![CDATA[AssertionError: expected [Function] to throw TypeError
+    at Context.<anonymous> (test\sum.js:26:24)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
