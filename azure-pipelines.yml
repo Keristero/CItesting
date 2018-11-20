@@ -20,6 +20,7 @@ steps:
 # Publish Test Results
 # Publish Test Results to Azure Pipelines/TFS
 - task: PublishTestResults@2
+  condition: always()
   inputs:
     testResultsFormat: 'JUnit' # Options: JUnit, NUnit, VSTest, xUnit
     testResultsFiles: '**/test-results*.xml' 
