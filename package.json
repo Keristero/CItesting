@@ -1,0 +1,19 @@
+{
+  "name": "ci-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keristero/CItesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keristero/CItesting/issues"
+  },
+  "homepage": "https://github.com/Keristero/CItesting#readme"
+}
