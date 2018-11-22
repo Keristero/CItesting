@@ -7,5 +7,6 @@ exports.sum = function(){
             throw(new TypeError("sum() expects only numbers."))
         }
     }
+    console.log("THE SUM IS ",sum)
     return sum;
 }
