@@ -5,7 +5,7 @@ exports.product = function(){
     }
     for(let number of arguments){
         if(typeof number == "number"){
-            sum *= number
+            product *= number
         }else{
             throw(new TypeError("product() expects only numbers."))
         }
