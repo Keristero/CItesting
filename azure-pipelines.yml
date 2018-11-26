@@ -6,6 +6,19 @@
 pool:
   name: default  # name of the pool to run this job in
 
+resources:
+  repositories:
+  - repository: software
+    type: github
+    name: Keristero/CItestingSoftware
+    trigger:
+    - master
+  - repository: testHarness
+    type: github
+    name: Keristero/CItesting
+    trigger:
+    - master
+
 steps:
 - task: NodeTool@0
   inputs:
