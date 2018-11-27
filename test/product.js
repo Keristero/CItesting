@@ -1,4 +1,5 @@
-var product = require('../product').product;
+var path = require("path")
+var product = require(path.join(__dirname,'..','..','product.js')).product;
 var expect = require('chai').expect;
 
 describe('#product()', function() {

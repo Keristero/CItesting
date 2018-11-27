@@ -1,4 +1,5 @@
-var sum = require('../sum').sum;
+var path = require("path")
+var sum = require(path.join(__dirname,'..','..','sum.js')).sum;
 var expect = require('chai').expect;
 
 describe('#sum()', function() {
