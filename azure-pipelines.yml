@@ -13,13 +13,13 @@ resources:
     name: Keristero/CItestingSoftware
     trigger:
     - master
-    endpoint: github #only needed for non azure repositories
+    endpoint: Keristero/CItestingSoftware #only needed for non azure repositories
   - repository: testHarness
     type: github
     name: Keristero/CItesting
     trigger:
     - master
-    endpoint: github #only needed for non azure repositories
+    endpoint: Keristero/CItesting #only needed for non azure repositories
 
 steps:
 - task: NodeTool@0
